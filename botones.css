@@ -1,0 +1,44 @@
+/* Estilos para el botón "Comprar" */
+.comprar-btn {
+    background-color: #0070ba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.comprar-btn:hover {
+    background-color: #00568f;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comprar-btn:active {
+    transform: translateY(1px);
+}
+/* Estilos para los títulos de sección */
+h2 {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilos para los párrafos de texto */
+p {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 10px;
+    text-align: center;
+}

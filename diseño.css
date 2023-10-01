@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
+
+.whatsapp-button {
+    text-align: center;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #25d366; /* Cambia el color de fondo del botón según tus preferencias */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #128c7e; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+img {
+    width: 32px; /* Cambia el tamaño del ícono según tus preferencias */
+    margin-right: 10px;
+}
+
+span {
+    font-weight: bold;
+}

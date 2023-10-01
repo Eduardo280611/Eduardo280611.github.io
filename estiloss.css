@@ -1,0 +1,62 @@
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #000; /* Fondo negro para todo el menú */
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Letras blancas */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 10px 15px; /* Agregamos espaciado alrededor del texto */
+}
+
+nav a:hover {
+    color: #ff6600; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para las secciones (puedes personalizar estos estilos para cada sección específica) */
+section {
+    padding: 20px;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para los enlaces dentro del footer */
+footer a {
+    text-decoration: none;
+    color: #ff6600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff; /* Cambia el color al pasar el mouse */
+}
